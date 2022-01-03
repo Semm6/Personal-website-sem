@@ -1,15 +1,6 @@
 import "../Style/skills.css";
-// import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
-
-// const Item = styled(Paper)(({ theme }) => ({
-//   ...theme.typography.body2,
-//   padding: theme.spacing(3),
-//   textAlign: "center",
-//   color: theme.palette.text.secondary,
-//   backgroundColor: theme.palette.success.main,
-// }));
 
 function Skills() {
   return (
