@@ -1,21 +1,11 @@
 import "../Style/project.css";
 import * as React from "react";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import Box from "@mui/material/Box";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
-
-const Item = styled(Paper)(({ theme }) => ({
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: "center",
-  color: theme.palette.text.secondary,
-}));
 
 function Project() {
   return (
@@ -23,96 +13,118 @@ function Project() {
       <body>
         <div>
           <h1>Projects 👨🏻‍💻</h1>
-        </div>
-        <div className="projects">
-          <Box sx={{ width: "100%" }}>
-            <Grid
-              container
-              rowSpacing={1}
-              columnSpacing={{ xs: 1, sm: 2, md: 3 }}
-            >
-              <Grid item xs={6}>
-                <Item>
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg"
-                      alt="github"
-                    />
-                    <CardContent>
-                      <Typography gutterBottom variant="h5" component="div">
-                        Project 1
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        first project i ever made
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Item>
+          <div className="info">
+            <div className="grid">
+              <Grid
+                container
+                rowSpacing={4}
+                columnSpacing={{ xs: 1, sm: 2, md: 3 }}
+              >
+                <Grid item xs={12} sm={6}>
+                  <Card sx={{ maxWidth: 500 }}>
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="250"
+                        image="https://cdn.dribbble.com/users/1671186/screenshots/7103694/media/7e6a6c5a4e6d9afd51364b17ca627e08.gif"
+                        alt="Whitelabel webshop"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Whitelabel webshop
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                  <Card sx={{ maxWidth: 500 }}>
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="250"
+                        image="https://i.postimg.cc/1RV8VDrv/product.gif"
+                        alt="Product api"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Product API
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                  <Card sx={{ maxWidth: 500 }}>
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="250"
+                        image="https://i.postimg.cc/HkqvwqJr/Restaurant.gif"
+                        alt="Restaurant"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Restaurant system
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                  <Card sx={{ maxWidth: 500 }}>
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="250"
+                        image="https://i.postimg.cc/YqQFsTjc/Auth0.gif"
+                        alt="Auth0"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Auth0 Swift POC
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+                <Grid item xs={12} sm={6} mb={10}>
+                  <Card sx={{ maxWidth: 500 }}>
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="250"
+                        image="https://i.postimg.cc/9ftMCjZT/cagliostro.gif"
+                        alt="Restaurant"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Bas Beetle Parts
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
+                <Grid item xs={12} sm={6} mb={10}>
+                  <Card sx={{ maxWidth: 500 }}>
+                    <CardActionArea>
+                      <CardMedia
+                        component="img"
+                        height="250"
+                        image="https://i.postimg.cc/25w0vVn5/fruit-tree.gif"
+                        alt="Car"
+                      />
+                      <CardContent>
+                        <Typography gutterBottom variant="h6" component="div">
+                          Tree nursery Cox
+                        </Typography>
+                      </CardContent>
+                    </CardActionArea>
+                  </Card>
+                </Grid>
               </Grid>
-              <Grid item xs={6}>
-                <Item>
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg"
-                      alt="github"
-                    />
-                    <CardContent>
-                      <Typography gutterBottom variant="h5" component="div">
-                        Project 2
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        Second project i ever made
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Item>
-              </Grid>
-              <Grid item xs={6}>
-                <Item>
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg"
-                      alt="github"
-                    />
-                    <CardContent>
-                      <Typography gutterBottom variant="h5" component="div">
-                        Project 3
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        Third project i ever made
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Item>
-              </Grid>
-              <Grid item xs={6}>
-                <Item>
-                  <CardActionArea>
-                    <CardMedia
-                      component="img"
-                      height="140"
-                      image="https://i.ytimg.com/vi/OEGm7LXAN_c/maxresdefault.jpg"
-                      alt="github"
-                    />
-                    <CardContent>
-                      <Typography gutterBottom variant="h5" component="div">
-                        Project 4
-                      </Typography>
-                      <Typography variant="body2" color="text.secondary">
-                        fourth project i ever made
-                      </Typography>
-                    </CardContent>
-                  </CardActionArea>
-                </Item>
-              </Grid>
-            </Grid>
-          </Box>
+            </div>
+          </div>
         </div>
       </body>
     </html>
