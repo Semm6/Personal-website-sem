@@ -2,12 +2,6 @@ import "../Style/skills.css";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { Route } from "react-router-dom";
-import { Chart } from "react-google-charts";
-export const data = [
-  ["Task", "Hours per Day"],
-  ["HTML", 6],
-  ["Eat", 2],
-];
 
 function Skills() {
   document.title = Route.title = "Skills";
