@@ -1,18 +1,13 @@
 import "../Style/about.css";
+import { Route } from "react-router-dom";
 
 function About() {
+  document.title = Route.title = "About";
   return (
     <html>
       <body>
         <div>
           <h1>Hi, my name is Sem de Wilde 👋🏼</h1>
-          <div className="gifdiv">
-            <img
-              className="gif"
-              src="https://i.gifer.com/embedded/download/TTRH.gif"
-              alt="mario"
-            />
-          </div>
           <div className="info">
             <h2>About</h2>
             <hr className="line" />

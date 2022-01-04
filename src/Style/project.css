@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   font-size: 50px;
   margin-top: 120px;
-  margin-bottom: 25px;
+  margin-bottom: 80px;
 }
 
 h2 {
@@ -15,7 +15,12 @@ h2 {
   margin-bottom: 5px;
 }
 
-.info {
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.info2 {
   width: 50%;
   margin: auto;
   margin-top: 25px;
@@ -29,7 +34,7 @@ h2 {
 
 .grid {
   margin-top: 25px;
-  margin-bottom: 250px;
+  margin-bottom: 160px;
   height: 100px;
 }
 

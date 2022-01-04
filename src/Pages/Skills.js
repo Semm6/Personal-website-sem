@@ -1,8 +1,10 @@
 import "../Style/skills.css";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
+import { Route } from "react-router-dom";
 
 function Skills() {
+  document.title = Route.title = "Skills";
   return (
     <html>
       <body>
