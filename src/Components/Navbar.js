@@ -23,9 +23,9 @@ const pages = [
   <Button variant="inherit" href="/skills">
     skills
   </Button>,
-  // <Button variant="inherit" href="/resume">
-  //   resume
-  // </Button>,
+  <Button variant="inherit" href="/resume">
+    resume
+  </Button>,
 ];
 
 const Navbar = () => {

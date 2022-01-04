@@ -2,6 +2,12 @@ import "../Style/skills.css";
 import Paper from "@mui/material/Paper";
 import Grid from "@mui/material/Grid";
 import { Route } from "react-router-dom";
+import { Chart } from "react-google-charts";
+export const data = [
+  ["Task", "Hours per Day"],
+  ["HTML", 6],
+  ["Eat", 2],
+];
 
 function Skills() {
   document.title = Route.title = "Skills";
@@ -31,7 +37,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs zeroMinWidth>
                         <span className="spanitem">
-                          {" "}
                           <p>HTML</p>
                         </span>
                       </Grid>
@@ -50,7 +55,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs>
                         <span className="spanitem">
-                          {" "}
                           <p>CSS</p>
                         </span>
                       </Grid>
@@ -69,7 +73,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs zeroMinWidth>
                         <span className="spanitem">
-                          {" "}
                           <p>Javascript</p>
                         </span>
                       </Grid>
@@ -88,7 +91,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs zeroMinWidth>
                         <span className="spanitem">
-                          {" "}
                           <p>React</p>
                         </span>
                       </Grid>

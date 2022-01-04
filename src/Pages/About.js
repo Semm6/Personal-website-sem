@@ -12,36 +12,21 @@ function About() {
             <h2>About</h2>
             <hr className="line" />
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.is simply
-              dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to
+              My name is Sem and i live in the Netherlands. Currently i'm a
+              second year student in Software engineering at Fontys Hogeschool
+              Eindhoven. This is a 4 year bachelor education. I like working in
+              teams and i'm very motivated.
             </p>
           </div>
           <div className="info">
             <h2>Work</h2>
             <hr className="line" />
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of type and
-              scrambled it to make a type specimen book. It has survived not
-              only five centuries, but also the leap into electronic
-              typesetting, remaining essentially unchanged. It was popularised
-              in the 1960s with the release of Letraset sheets containing Lorem
-              Ipsum passages, and more recently with desktop publishing software
-              like Aldus PageMaker including versions of Lorem Ipsum.is simply
-              dummy text of the printing and typesetting industry. Lorem Ipsum
-              has been the industry's standard dummy text ever since the 1500s,
-              when an unknown printer took a galley of type and scrambled it to
+              Currently i'm in the first semester from the second year and made
+              1 big project for Mediaan (a restaurant system). In the second
+              semester from year 2 i will be picking a specialization called
+              open learning. This is a specialization where you will be choosing
+              yourself what you want to learn.
             </p>
           </div>
         </div>
