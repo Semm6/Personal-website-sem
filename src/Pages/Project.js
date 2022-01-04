@@ -6,14 +6,16 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import { CardActionArea } from "@mui/material";
+import { Route } from "react-router-dom";
 
 function Project() {
+  document.title = Route.title = "Projects";
   return (
     <html>
       <body>
         <div>
           <h1>Projects 👨🏻‍💻</h1>
-          <div className="info">
+          <div className="info2">
             <div className="grid">
               <Grid
                 container
@@ -31,7 +33,12 @@ function Project() {
                       />
                       <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                          Whitelabel webshop
+                          <a
+                            className="link"
+                            href="https://github.com/Semm6/Whitelabel-webshop"
+                          >
+                            Whitelabel webshop
+                          </a>
                         </Typography>
                       </CardContent>
                     </CardActionArea>
@@ -48,7 +55,12 @@ function Project() {
                       />
                       <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                          Product API
+                          <a
+                            className="link"
+                            href="https://github.com/Semm6/ProductService-webshop"
+                          >
+                            Product API
+                          </a>
                         </Typography>
                       </CardContent>
                     </CardActionArea>
@@ -65,7 +77,12 @@ function Project() {
                       />
                       <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                          Restaurant system
+                          <a
+                            className="link"
+                            href="https://bitbucket.org/studentjovi/workspace/projects/MED"
+                          >
+                            Restaurant system
+                          </a>
                         </Typography>
                       </CardContent>
                     </CardActionArea>
@@ -82,7 +99,12 @@ function Project() {
                       />
                       <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                          Auth0 Swift POC
+                          <a
+                            className="link"
+                            href="https://github.com/Semm6/Swift-Auth0-poc"
+                          >
+                            Auth0 Swift POC
+                          </a>
                         </Typography>
                       </CardContent>
                     </CardActionArea>
@@ -99,7 +121,12 @@ function Project() {
                       />
                       <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                          Bas Beetle Parts
+                          <a
+                            className="link"
+                            href="https://github.com/Semm6/BasBeetleParts"
+                          >
+                            Bas Beetle Parts
+                          </a>
                         </Typography>
                       </CardContent>
                     </CardActionArea>
@@ -116,7 +143,12 @@ function Project() {
                       />
                       <CardContent>
                         <Typography gutterBottom variant="h6" component="div">
-                          Tree nursery Cox
+                          <a
+                            className="link"
+                            href="https://github.com/Semm6/Boomkwekerij_Cox"
+                          >
+                            Tree nursery Cox
+                          </a>
                         </Typography>
                       </CardContent>
                     </CardActionArea>
