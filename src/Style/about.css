@@ -22,6 +22,16 @@ h2 {
   text-align: left;
 }
 
+.imgdiv {
+  margin: auto;
+  text-align: center;
+}
+
+.profileimg {
+  width: 175px;
+  text-align: center;
+}
+
 .description {
   margin-bottom: 30px;
 }

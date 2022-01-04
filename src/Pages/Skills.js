@@ -31,7 +31,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs zeroMinWidth>
                         <span className="spanitem">
-                          {" "}
                           <p>HTML</p>
                         </span>
                       </Grid>
@@ -50,7 +49,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs>
                         <span className="spanitem">
-                          {" "}
                           <p>CSS</p>
                         </span>
                       </Grid>
@@ -69,7 +67,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs zeroMinWidth>
                         <span className="spanitem">
-                          {" "}
                           <p>Javascript</p>
                         </span>
                       </Grid>
@@ -88,7 +85,6 @@ function Skills() {
                       </Grid>
                       <Grid item xs zeroMinWidth>
                         <span className="spanitem">
-                          {" "}
                           <p>React</p>
                         </span>
                       </Grid>
